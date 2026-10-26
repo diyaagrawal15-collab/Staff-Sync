@@ -1,0 +1,26 @@
+{
+  "name": "hrm-system",
+  "version": "1.0.0",
+  "description": "Enterprise Human Resource Management System (MERN Stack)",
+  "private": true,
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node backend/server.js",
+    "client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test": "node backend/tests/run-tests.js",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "hrm",
+    "mern",
+    "human-resource-management",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}
